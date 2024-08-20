@@ -160,7 +160,7 @@ const Navbar = () => {
           <Image src={Bookmark} width={30} height={30} alt="explore icon " />
         </div>
         <div className="d-flex align-items-center" style={{ height: "80px" }}>
-          <Image src={Vector} width={25} height={30} alt="explore icon " />
+          <Image src={Vector} width={25} height={25} alt="explore icon " />
         </div>
         <div className="d-flex align-items-center" style={{ height: "80px" }}>
           <Image src={Cart} width={30} height={30} alt="explore icon " />
