@@ -13,7 +13,7 @@ import mail from "@/assets/social/mail.png";
 const Footer = () => {
   return (
     <div>
-        <div style={{ width: "90%", margin: "auto" }} className="d-flex justify-content-between gap-5 py-5">
+        <div style={{ width: "90%", margin: "auto" }} className="d-flex flex-column flex-md-row justify-content-between gap-5 py-5">
       <div className="d-flex flex-column ">
         <p className="fw-bold">Hobbycue</p>
         <Link className="text-decoration-none text-dark" href="/about-us">
@@ -73,7 +73,7 @@ const Footer = () => {
       </div>
       <div className="d-flex flex-column ">
         <p className="fw-bold">Social Media</p>
-        <div className="d-flex gap-4 mb-5">
+        <div className="d-flex gap-3 gap-md-4 mb-5">
           <Image src={fb} width={20} height={20} alt="fb" />
           <Image src={twitter} width={20} height={20} alt="fb" />
           <Image src={instagram} width={20} height={20} alt="fb" />

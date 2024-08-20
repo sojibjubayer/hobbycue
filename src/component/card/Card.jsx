@@ -9,8 +9,8 @@ import Group from "@/assets/Group.png";
 const Card = () => {
   return (
     <div className="my-5 mx-auto" style={{ width: "90%" }}>
-      <div className="d-flex gap-4 my-3">
-        <div className="card w-50 ">
+      <div className="d-flex flex-column flex-md-row gap-4 my-3">
+        <div className="card w-100 w-md-50">
           <div className="card-body ps-5">
             <h5 className="card-title fw-bold">
             <Image src={Group} width={30} height={20} alt="event" className="me-3" />
@@ -33,7 +33,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="card w-50">
+        <div className="card w-100 w-md-50">
           <div className="card-body ps-5">
             <h5 className="card-title  fw-bold">
             <Image src={Location} width={30} height={30} alt="event" className="me-3" />
@@ -56,8 +56,8 @@ const Card = () => {
           </div>
         </div>
       </div>
-      <div className="d-flex gap-4 my-3">
-        <div className="card w-50 ">
+      <div className="d-flex flex-column flex-md-row gap-4 my-3">
+        <div className="card w-100 w-md-50 ">
           <div className="card-body ps-5">
             <h5 className="card-title  fw-bold">
             <Image src={Basket} width={30} height={30} alt="event" className="me-3" />
@@ -79,7 +79,7 @@ const Card = () => {
             </div>
           </div>
         </div>
-        <div className="card w-50 ">
+        <div className="card w-100 w-md-50 ">
           <div className="card-body ps-5">
             <h5 className="card-title  fw-bold">
               <Image src={Event} width={30} height={30} alt="event" className="me-3" />

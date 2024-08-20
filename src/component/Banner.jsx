@@ -30,7 +30,7 @@ const Banner = () => {
     >
       <div
         style={{ width: "90%", margin: "auto", gap: "160px" }}
-        className="d-flex flex-row"
+        className=" d-flex flex-column flex-md-row"
       >
         <div className="mt-5">
           <h3 className="fs-1 mb-5">
@@ -51,12 +51,12 @@ const Banner = () => {
           </p>
           {/* Removed GroupImage here */}
         </div>
-        <div className="mt-5">
+        <div className="mt-5 d-none d-md-flex flex-column">
           <div className="d-flex gap-3 fw-bold fs-5 mb-4">
-            <Link onClick={handleSIgnIn} style={{ color: "#939CA3" }} href="/">
+            <Link onClick={handleSIgnIn} style={{ color: signIn ? "#8064A2" : "#939CA3" }} href="/">
               Sign In
             </Link>
-            <Link onClick={handleJoinIn} style={{ color: "#939CA3" }} href="/">
+            <Link onClick={handleJoinIn} style={{ color: joinIn ? "#8064A2" : "#939CA3" }} href="/">
               Join In
             </Link>
           </div>

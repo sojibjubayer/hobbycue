@@ -36,20 +36,20 @@ const Testimonials = () => {
               activities in my city, all under one roof, is an excellent idea
               and I highly recommend it.
             </p>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex gap-3 flex-column-reverse flex-md-row justify-content-between align-items-center">
               <Image
                 src={AudioTrack}
                 width={0}
                 height={0}
-                alt="event"
-                className="me-3"
+                alt="Audio track"
+                className="me-3 w-100 h-100"
               />
               <Image
                 src={Dancer}
                 width={0}
                 height={0}
-                alt="event"
-                className="pe-5"
+                alt="Dancer"
+                className="pe-5 w-100 h-100"
               />
             </div>
           </div>
