@@ -2,7 +2,7 @@ import Image from "next/image";
 import logo from "@/assets/logo.png";
 import Explore from "@/assets/Explore.png";
 import Hobbies from "@/assets/Hobbies.png";
-import Bookmark from "@/assets/Bookmark.png";
+// import Bookmark from "@/assets/Bookmark.png";
 import Vector from "@/assets/Vector.png";
 import Cart from "@/assets/Cart.png";
 import "../../app/globals.css";
@@ -156,9 +156,9 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="d-flex align-items-center" style={{ height: "80px" }}>
+        {/* <div className="d-flex align-items-center" style={{ height: "80px" }}>
           <Image src={Bookmark} width={30} height={30} alt="explore icon " />
-        </div>
+        </div> */}
         <div className="d-flex align-items-center" style={{ height: "80px" }}>
           <Image src={Vector} width={25} height={25} alt="explore icon " />
         </div>
