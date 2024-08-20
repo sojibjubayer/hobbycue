@@ -1,0 +1,11 @@
+.custom-input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300; /* Apply weight 300 */
+}
+
+.card-hover:hover {
+  background-color: #8064A2; /* Change to your desired hover color */
+  transition: background-color 0.3s ease; /* Smooth transition effect */
+  color:white;
+  
+}

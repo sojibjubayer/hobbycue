@@ -7,6 +7,7 @@ import Location from "@/assets/Location.png";
 import Group from "@/assets/Group.png";
 
 const Card = () => {
+  
   return (
     <div className="my-5 mx-auto" style={{ width: "90%" }}>
       <div className="d-flex flex-column flex-md-row gap-4 my-3">

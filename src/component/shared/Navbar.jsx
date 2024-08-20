@@ -5,6 +5,7 @@ import logo from "@/assets/logo.png";
 import Explore from "@/assets/Explore.png";
 import Hobbies from "@/assets/Hobbies.png";
 import Vector from "@/assets/Vector.png";
+import Bm from "@/assets/Bm.png";
 import Cart from "@/assets/Cart.png";
 import Google from "@/assets/Google.png";
 import Facebook from "@/assets/Facebook.png";
@@ -190,6 +191,15 @@ const Navbar = () => {
           </div>
         </div>
 
+        <div className="d-none d-md-flex align-items-center" style={{ height: "80px" }}>
+          <Image
+            src={Bm}
+            width={25}
+            height={25}
+            alt="Bm icon"
+            className="w-auto"
+          />
+        </div>
         <div className="d-flex align-items-center" style={{ height: "80px" }}>
           <Image
             src={Vector}
