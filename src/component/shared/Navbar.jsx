@@ -289,7 +289,7 @@ const Navbar = () => {
                           className="form-control"
                         />
                       </div>
-                      <Button variant="primary" className="w-100">
+                      <Button  className="w-100" style={{background:'#8064A2'}}>
                         Sign In
                       </Button>
                     </div>
@@ -334,7 +334,7 @@ const Navbar = () => {
                           className="form-control"
                         />
                       </div>
-                      <Button variant="primary" className="w-100">
+                      <Button className="w-100" style={{background:'#8064A2'}}>
                         Join In
                       </Button>
                     </div>
